@@ -67,7 +67,7 @@ print("Set variable names")
 names(mergedSubjects) <- c("subject")
 names(mergedActivities) <- c("activities")
 featureNames <- read.table(paste0(baseFilePath, "/features.txt"), header = FALSE)
-summary(featureNames)
+#summary(featureNames)
 names(mergedFeatures) <- featureNames$V2
 
 print("Standardized data - merge everything ...")

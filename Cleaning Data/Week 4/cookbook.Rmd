@@ -1,0 +1,35 @@
+Following variables read data from files and store the data tables. Variables are named according to data stored in them:
+
+- dataActivityTest    
+- dataActivityTrain   
+- dataSubjectTest     
+- dataSubjectTrain    
+- dataFeaturesTest    
+- dataFeaturesTrain   
+
+
+Following variables store merged data from read files, this provides relational data from the files read:
+
+- mergedSubjects     
+- mergedActivities   
+- mergedFeatures     
+
+Finally, all data is merged and stored in the following variable:
+
+- mergedData
+
+Features values are read from the file and stored in this variable
+
+- featureNames
+
+mean and std feature values from *featureNames* are stored in this variable:
+
+- subFeatureNames
+
+Values from activity labels are stored in this variable:
+
+- activityNames
+
+After all required operation of clean up is done, the values are stored in this variable:
+
+- tidyData

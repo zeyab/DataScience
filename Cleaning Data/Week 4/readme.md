@@ -27,3 +27,13 @@ Files in this section:
 2. data/output/tidyData-20160710.tsv - is the final data output of the script.
 
 Note: The script downloads data in *data* directory and reads all data from there.
+
+
+Execution:
+----------
+
+1. First all data is read into variables
+2. Related data is merged into variables
+3. Relevant data is extracted and saved
+4. Labels are scrubbed to give meaningful names and Id values replaced with label (Activity), where relevant
+5. Finally, cleaned up data is saved in file
