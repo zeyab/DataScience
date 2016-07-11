@@ -25,6 +25,7 @@ Files in this section:
 
 1. run_analysis.R - contains full script that meets the requirements of this task.
 2. data/output/tidyData-20160710.tsv - is the final data output of the script.
+3. Cookbook.Rmd - Provides variable description
 
 Note: The script downloads data in *data* directory and reads all data from there.
 
